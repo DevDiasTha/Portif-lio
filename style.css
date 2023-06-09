@@ -1,18 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #0c1821;
     color: white; 
 }
-strong {
+.TituloDestaque {
     color: #21897e;
 }
-span {
-    color: #7c74a9;
-}
-img {
-    max-width: 100%;
-    max-height: 100%;
-   }
-.cat {
-    height: 400px;
-    width: 400px;   
+.conteudo{
+    display: flex;
+    align-items: center;
 }
