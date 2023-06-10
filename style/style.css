@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-principal: #32292F; 
+    --cor-secundaria: #D4D2D5;
+    --cor-terciaria: #AA968A;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: white; 
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+.TituloDestaque {
+    color: var(--cor-terciaria);
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+.conteudo__Text{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.conteudo__Texto__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.conteudo__Texto__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.conteudo__links{
+    display: flex;
+    flex-direction: column;/* posicionou os botões verticalmente */
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+}
+.links_subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.botao{
+    /* background-color: #21897e; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-decoration: none;
+    width: 378px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color: var(--cor-secundaria);
+    border: 2px dotted var(--cor-terciaria); /* Adicionamos uma borda nos botões - tam, tipo e cor */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao:hover{
+    background-color: #BFAFA6;
+    color: #32292F;
+}
+
+.rodape{
+    color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px;
+    font-weight: 400px;
+    text-align: center;
+}
